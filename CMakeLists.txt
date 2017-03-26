@@ -24,3 +24,5 @@ link_directories(${ROOT_LIBRARY_DIR})
 # many false-positive warnings
 include_directories(SYSTEM ${ROOT_INCLUDE_DIR})
 
+add_executable(Accor_DPl_EtaprXY_2014_fit Accor_DPl_EtaprXY_2014_fit.cc)
+target_link_libraries(Accor_DPl_EtaprXY_2014_fit ${ROOT_LIBRARIES} Minuit)
