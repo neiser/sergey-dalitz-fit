@@ -420,6 +420,8 @@ void Accor_DPl_EtaprXY_2014_fit( Double_t a=-0.07, Double_t b=-0.07, Double_t d=
   }
 }
 
-
+int main() {
+  Accor_DPl_EtaprXY_2014_fit();
+}
 
 
